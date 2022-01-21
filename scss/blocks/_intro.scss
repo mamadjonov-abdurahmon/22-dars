@@ -29,73 +29,74 @@
  opacity: 0.8;
 }
 
+@media only screen and (max-width: 1311px){
+
+ .intro__box{
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 168px;
+ }
+
+
+}
+
 @media only screen and (max-width: 900px){
 
  .intro__box{
-  background-image: url("../images/Bitmap-\(2\).png");
-  background-repeat: no-repeat;
-  background-size: 860px 450px;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 168px;
  }
-}
 
-@media only screen and (max-width: 816px){
-
- .intro__box{
-  background-image: url("../images/Bitmap-\(2\).png");
-  background-repeat: no-repeat;
-  background-size: 770px 450px;
- }
-}
-
-@media only screen and (max-width: 714px){
-
- .intro__box{
-  background-image: url("../images/Bitmap-\(2\).png");
-  background-repeat: no-repeat;
-  background-size: 770px 450px;
- }
-}
-
-
-@media only screen and (max-width: 816px){
-
- .intro__box{
-  background-image: url("../images/Bitmap-\(2\).png");
-  background-repeat: no-repeat;
-  background-size: 600px 450px;
+ .intro__boxs{
+  max-width: 100%;
+  border-radius: 10px;
+  align-items: center;
+  margin: 0;
  }
 
  .intro__text{
-  width: 400px;
+  align-items: center;
  }
-
 
 }
 
-@media only screen and (max-width: 570px){
+@media only screen and (max-width: 565px){
 
  .intro__box{
-  background-image: url("../images/Bitmap-\(2\).png");
-  background-repeat: no-repeat;
-  background-size: 530px 450px;
+  max-width: 100%;
+  padding: 111px 24px 87px 24px;
+  margin-bottom: 168px;
+ }
+
+ .intro__taitl{
+  max-width: 100%;
+  text-align: center;
  }
 
  .intro__text{
-  width: 350px;
+  max-width: 100%;
+  text-align: center;
  }
-
 
 }
 
-@media only screen and (max-width: 534px){
+@media only screen and (max-width: 370px){
 
  .intro__box{
-  background-image: url("../images/Bitmap-\(2\).png");
-  background-repeat: no-repeat;
-  background-size: 490px 450px;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 168px;
  }
 
-.intro__text{
- width: 300px;
-}
+ .intro__taitl{
+  max-width: 100%;
+  text-align: center;
+  font-size: 32px;
+ }
+
+
 }

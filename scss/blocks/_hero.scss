@@ -70,3 +70,164 @@
  width: 540px;
  color: $--Light-Cream-color;
 }
+
+@media only screen and (max-width: 1311px){
+
+ .hero__box{
+  max-width: 100%;
+ }
+
+ .hero__boxs{
+  max-width: 100%;
+ }
+
+ .hero__img{
+  margin-right: 69px;
+ }
+
+
+}
+
+@media only screen and (max-width: 900px){
+
+ .hero__box{
+  max-width: 100%;
+ }
+
+
+ .hero__boxs{
+  max-width: 100%;
+ }
+
+ .hero__img{
+  max-width: 100%;
+  margin-right: 69px;
+ }
+
+ .container{
+  padding: 0px 40px;
+ }
+
+}
+
+@media only screen and (max-width: 901px){
+
+ .hero__box{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 0 ;
+  margin-right: 0;
+  margin-bottom: 269px;
+ }
+
+ .hero__img{
+  margin: 0;
+  margin-bottom: 48px;
+  object-fit: cover;
+ }
+
+ .hero__boxs{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 0 ;
+  margin-right: 0;
+ }
+
+ .hero__taitl{
+  max-width: 100%;
+  text-align: center;
+  font-size: 32px;
+  line-height: 48px;
+
+ }
+
+ .hero__text{
+  max-width: 100%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+ }
+
+}
+
+@media only screen and (max-width: 437px){
+
+ .hero__taitl{
+  max-width: 100%;
+  text-align: center;
+  font-size: 27px;
+  line-height: 48px;
+
+ }
+}
+
+
+
+@media only screen and (max-width: 1134px){
+
+ .second-section__box{
+  max-width: 100%;
+  margin-right: 69px;
+ }
+
+ .second-section__boxs{
+  max-width: 100%;
+ }
+
+ .second .hero__taitl{
+  font-size: 32px;
+  max-width: 100%;
+ }
+
+ .second .hero__text{
+  font-size: 12px;
+  max-width: 100%;
+ }
+
+ .second .hero__img{
+  max-width: 100%;
+ }
+
+}
+
+@media only screen and (max-width: 900px){
+
+ .second{
+  position: static;
+  max-width: 100%;
+  max-height: 100%;
+  height: 488px;
+ }
+
+ .second .hero__box{
+  position: static;
+ }
+
+ .second .hero__taitl{
+  position: static;
+  text-align: center;
+  font-size: 32px;
+ }
+
+ .second .hero__text{
+  position: static;
+  text-align: center;
+ }
+
+ .second .hero__img{
+  position: static;
+  object-fit: cover;
+  max-width: 573px;
+  max-height: 320px;
+ }
+
+
+}
