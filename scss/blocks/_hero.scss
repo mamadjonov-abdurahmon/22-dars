@@ -122,15 +122,40 @@
 
 }
 
+@media only screen and (max-width: 369px){
+
+  .hero__box{
+    max-width: 100%;
+  }
+
+
+  .hero__boxs{
+    max-width: 100%;
+  }
+
+  .hero__taitl{
+    max-width: 100%;
+    font-size:28px ;
+  }
+
+  .hero__img{
+    max-width: 100%;
+    margin-right: 69px;
+  }
+
+  .container{
+    padding: 0px 40px;
+  }
+
+}
+
+
 @media only screen and (max-width: 901px){
 
   .hero__box{
     width: 100%;
     max-width: 100%;
-    // display: flex;
-    // flex-wrap: wrap;
     align-items: center;
-    // justify-content: space-around;
     text-align: center;
     margin-left: 0 ;
     margin-right: 0;
@@ -147,10 +172,7 @@
 
   .hero__boxs{
     max-width: 100%;
-    // display: flex;
-    // flex-wrap: wrap;
     align-items: center;
-    // justify-content: space-around;
     margin-left: 0 ;
     margin-right: 0;
   }
@@ -208,7 +230,7 @@
   .hero__taitl{
     max-width: 100%;
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 48px;
 
   }
@@ -227,7 +249,7 @@
   .hero__taitl{
     max-width: 100%;
     text-align: center;
-    font-size: 27px;
+    font-size: 28px;
     line-height: 48px;
 
   }
@@ -291,6 +313,7 @@
   .second .hero__img{
     position: absolute;
     bottom: 290px;
+    right: 50px;
     width: 573px;
     height: 320px;
     object-fit: cover;
@@ -308,7 +331,10 @@
 
   .second .hero__taitl{
     position: absolute;
-    font-size: 32px;
+    left: 30px;
+    top: -70px;
+    width: 100%;
+    font-size: 28px;
     max-width: 100%;
     margin-top: 140px;
     margin-left: 110px;
@@ -317,7 +343,7 @@
   .second .hero__text{
     position: absolute;
     top: 140px;
-    left: 30px;
+    left: 130px;
     max-width: 100%;
   }
 
